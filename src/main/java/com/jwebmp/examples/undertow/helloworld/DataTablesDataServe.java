@@ -1,8 +1,8 @@
-package za.co.mmagon.jwebswing.examples.undertow.helloworld;
+package com.jwebmp.examples.undertow.helloworld;
 
-import za.co.mmagon.jwebswing.plugins.jqdatatable.DataTableData;
-import za.co.mmagon.jwebswing.plugins.jqdatatable.events.DataTableDataFetchEvent;
-import za.co.mmagon.jwebswing.plugins.jqdatatable.search.DataTableSearchRequest;
+import com.jwebmp.plugins.jqdatatable.DataTableData;
+import com.jwebmp.plugins.jqdatatable.events.DataTableDataFetchEvent;
+import com.jwebmp.plugins.jqdatatable.search.DataTableSearchRequest;
 
 import java.util.ArrayList;
 import java.util.List;
