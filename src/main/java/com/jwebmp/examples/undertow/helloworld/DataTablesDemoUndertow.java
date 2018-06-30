@@ -22,7 +22,7 @@ import com.jwebmp.base.html.TableCell;
 import com.jwebmp.base.html.TableHeaderCell;
 import com.jwebmp.base.html.TableHeaderGroup;
 import com.jwebmp.base.html.TableRow;
-import com.jwebmp.guiceinjection.GuiceContext;
+import com.jwebmp.guicedinjection.GuiceContext;
 import com.jwebmp.logger.LogFactory;
 import com.jwebmp.plugins.jqdatatable.DataTable;
 import com.jwebmp.plugins.jqdatatable.DataTablePageConfigurator;
@@ -115,7 +115,6 @@ public class DataTablesDemoUndertow
 
 		dt.asMe()
 		  .addServerDataSource(DataTablesDataServe.class);
-
 
 		dt.getOptions()
 		  .getButtons();
