@@ -1,8 +1,8 @@
 package com.jwebmp.examples.undertow.helloworld;
 
-import com.jwebmp.plugins.jqdatatable.DataTableData;
-import com.jwebmp.plugins.jqdatatable.events.DataTableDataFetchEvent;
-import com.jwebmp.plugins.jqdatatable.search.DataTableSearchRequest;
+import com.jwebmp.plugins.datatable.DataTableData;
+import com.jwebmp.plugins.datatable.events.DataTableDataFetchEvent;
+import com.jwebmp.plugins.datatable.search.DataTableSearchRequest;
 
 import java.util.ArrayList;
 import java.util.List;
