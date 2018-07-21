@@ -17,11 +17,11 @@
 
 package com.jwebmp.examples.undertow.helloworld;
 
-import com.jwebmp.Page;
-import com.jwebmp.base.html.TableCell;
-import com.jwebmp.base.html.TableHeaderCell;
-import com.jwebmp.base.html.TableHeaderGroup;
-import com.jwebmp.base.html.TableRow;
+import com.jwebmp.core.Page;
+import com.jwebmp.core.base.html.TableCell;
+import com.jwebmp.core.base.html.TableHeaderCell;
+import com.jwebmp.core.base.html.TableHeaderGroup;
+import com.jwebmp.core.base.html.TableRow;
 import com.jwebmp.guicedinjection.GuiceContext;
 import com.jwebmp.logger.LogFactory;
 import com.jwebmp.plugins.datatable.DataTable;
