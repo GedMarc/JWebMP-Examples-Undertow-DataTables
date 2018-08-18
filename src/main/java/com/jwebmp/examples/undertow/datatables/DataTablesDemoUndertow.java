@@ -15,32 +15,27 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.jwebmp.examples.undertow.helloworld;
+package com.jwebmp.examples.undertow.datatables;
 
 import com.jwebmp.core.Page;
 import com.jwebmp.core.base.html.TableCell;
 import com.jwebmp.core.base.html.TableHeaderCell;
 import com.jwebmp.core.base.html.TableHeaderGroup;
 import com.jwebmp.core.base.html.TableRow;
-import com.jwebmp.guicedinjection.GuiceContext;
-import com.jwebmp.logger.LogFactory;
+import com.jwebmp.core.services.IPage;
 import com.jwebmp.plugins.datatable.DataTable;
 import com.jwebmp.plugins.datatable.DataTablePageConfigurator;
 import com.jwebmp.plugins.datatable.enumerations.DataTableButtons;
 import com.jwebmp.plugins.datatable.enumerations.DataTableThemes;
 import com.jwebmp.plugins.datatable.options.DataTablesButtonButtonsOptions;
 import com.jwebmp.plugins.datatable.options.DataTablesDomOptions;
-import io.undertow.Undertow;
-import io.undertow.server.HttpHandler;
-import io.undertow.servlet.Servlets;
-import io.undertow.servlet.api.DeploymentInfo;
-import io.undertow.servlet.api.DeploymentManager;
+import com.jwebmp.undertow.JWebMPUndertow;
 
 import javax.servlet.ServletException;
-import java.util.logging.Level;
 
 public class DataTablesDemoUndertow
 		extends Page
+		implements IPage
 {
 	public DataTablesDemoUndertow()
 	{
@@ -127,27 +122,9 @@ public class DataTablesDemoUndertow
 	 *
 	 * @throws ServletException
 	 */
-	public static void main(String[] args) throws ServletException
+	public static void main(String[] args) throws Exception
 	{
-		LogFactory.configureConsoleColourOutput(Level.FINE);
-		DeploymentInfo servletBuilder = Servlets.deployment()
-		                                        .setClassLoader(DataTablesDemoUndertow.class.getClassLoader())
-		                                        .setContextPath("/")
-		                                        .setDeploymentName("datatablesdemo.war");
+		JWebMPUndertow.boot("0.0.0.0", 6002);
 
-		DeploymentManager manager = Servlets.defaultContainer()
-		                                    .addDeployment(servletBuilder);
-
-		manager.deploy();
-		GuiceContext.inject();
-
-		HttpHandler jwebSwingHandler = manager.start();
-
-		Undertow server = Undertow.builder()
-		                          .addHttpListener(6002, "localhost")
-		                          .setHandler(jwebSwingHandler)
-		                          .build();
-
-		server.start();
 	}
 }

@@ -45,6 +45,14 @@
             <version>${project.version}</version>
             <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
+
+        <dependency>
+            <groupId>com.jwebmp</groupId>
+            <artifactId>guiced-servlets</artifactId>
+            <version>${project.version}</version>
+            <classifier>${jwebmp.runtime.classifier}</classifier>
+        </dependency>
+
         <dependency>
             <groupId>com.jwebmp</groupId>
             <artifactId>jwebmp-log-master</artifactId>
@@ -52,6 +60,13 @@
             <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.jwebmp</groupId>
+            <artifactId>jwebmp-websockets</artifactId>
+            <version>${project.version}</version>
+            <classifier>${jwebmp.runtime.classifier}</classifier>
+        </dependency>
 
         <dependency>
             <groupId>com.jwebmp</groupId>
@@ -70,7 +85,22 @@
 
         <dependency>
             <groupId>com.jwebmp</groupId>
-            <artifactId>jwebmp-datatables-undertow</artifactId>
+            <artifactId>jwebmp-easing-effects</artifactId>
+            <version>${project.version}</version>
+            <classifier>${jwebmp.runtime.classifier}</classifier>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.jwebmp</groupId>
+            <artifactId>jwebmp-globalize</artifactId>
+            <version>${project.version}</version>
+            <classifier>${jwebmp.runtime.classifier}</classifier>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jwebmp</groupId>
+            <artifactId>jwebmp-interception</artifactId>
             <version>${project.version}</version>
             <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
