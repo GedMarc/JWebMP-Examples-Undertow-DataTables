@@ -27,8 +27,8 @@ import com.jwebmp.plugins.datatable.DataTable;
 import com.jwebmp.plugins.datatable.DataTablePageConfigurator;
 import com.jwebmp.plugins.datatable.enumerations.DataTableButtons;
 import com.jwebmp.plugins.datatable.enumerations.DataTableThemes;
-import com.jwebmp.plugins.datatable.options.DataTablesButtonButtonsOptions;
 import com.jwebmp.plugins.datatable.options.DataTablesDomOptions;
+import com.jwebmp.plugins.datatable.options.buttons.DataTablesButtonButtonsOptions;
 import com.jwebmp.undertow.JWebMPUndertow;
 
 import javax.servlet.ServletException;
@@ -51,8 +51,10 @@ public class DataTablesDemoUndertow
 		DataTable<?, ?> dt = new DataTable("dt", thg);
 		dt.getOptions()
 		  .setjQueryUI(true);
+
+
 		dt.getOptions()
-		  .setDom(DataTablesDomOptions.fromString("Bfrtip"));
+		  .setDom(DataTablesDomOptions.getDefault());
 
 		TableRow thr = new TableRow();
 		for (int i = 0; i < cols; i++)
