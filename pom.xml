@@ -4,12 +4,11 @@
 
 
     <parent>
-        <groupId>com.jwebmp</groupId>
-        <artifactId>jwebmp-builder</artifactId>
+        <groupId>com.jwebmp.examples.undertow</groupId>
+        <artifactId>jwebmp-examples-undertow</artifactId>
         <version>0.0.0_0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.jwebmp.examples.undertow</groupId>
     <artifactId>datatables</artifactId>
     <packaging>jar</packaging>
 
@@ -26,83 +25,60 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.jwebmp</groupId>
+            <groupId>com.jwebmp.core</groupId>
             <artifactId>jwebmp-core</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
 
         <dependency>
-            <groupId>com.jwebmp</groupId>
-            <artifactId>jwebmp-undertow</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
+            <groupId>com.jwebmp.guicedee.servlets</groupId>
+            <artifactId>guiced-undertow</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.jwebmp</groupId>
+            <groupId>com.jwebmp.guicedee</groupId>
             <artifactId>guiced-injection</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
 
         <dependency>
-            <groupId>com.jwebmp</groupId>
+            <groupId>com.jwebmp.guicedee.servlets</groupId>
             <artifactId>guiced-servlets</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
 
         <dependency>
-            <groupId>com.jwebmp</groupId>
-            <artifactId>jwebmp-log-master</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
+            <groupId>com.jwebmp.guicedee</groupId>
+            <artifactId>guiced-log-master</artifactId>
         </dependency>
 
 
         <dependency>
-            <groupId>com.jwebmp</groupId>
-            <artifactId>jwebmp-websockets</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
+            <groupId>com.jwebmp.guicedee.servlets</groupId>
+            <artifactId>guiced-websockets</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.jwebmp</groupId>
+            <groupId>com.jwebmp.plugins.forms</groupId>
             <artifactId>jwebmp-data-tables</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
 
         <dependency>
-            <groupId>com.jwebmp</groupId>
+            <groupId>com.jwebmp.plugins.jquery</groupId>
             <artifactId>jwebmp-jquery-ui</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
 
-
         <dependency>
-            <groupId>com.jwebmp</groupId>
+            <groupId>com.jwebmp.plugins.javascript</groupId>
             <artifactId>jwebmp-easing-effects</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
 
 
         <dependency>
-            <groupId>com.jwebmp</groupId>
+            <groupId>com.jwebmp.plugins.javascript</groupId>
             <artifactId>jwebmp-globalize</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
 
         <dependency>
-            <groupId>com.jwebmp</groupId>
+            <groupId>com.jwebmp.core</groupId>
             <artifactId>jwebmp-interception</artifactId>
-            <version>${project.version}</version>
-            <classifier>${jwebmp.runtime.classifier}</classifier>
         </dependency>
 
     </dependencies>
