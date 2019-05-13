@@ -1,0 +1,94 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <parent>
+        <groupId>com.jwebmp.examples.undertow</groupId>
+        <artifactId>jwebmp-examples-undertow</artifactId>
+        <version>0.0.0_0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>datatables</artifactId>
+    <packaging>jar</packaging>
+
+    <name>Undertow - DataTables</name>
+    <description>DataTables example for Undertow
+    </description>
+    <url>https://github.com/GedMarc/JWebSwing-Examples/Undertow/HelloWorld</url>
+
+    <issueManagement>
+        <system>Github</system>
+        <url>https://github.com/GedMarc/JWebSwing-Examples/Undertow/HelloWorld/issues</url>
+    </issueManagement>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.jwebmp.core</groupId>
+            <artifactId>jwebmp-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jwebmp.guicedee.servlets</groupId>
+            <artifactId>guiced-undertow</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jwebmp.guicedee</groupId>
+            <artifactId>guiced-injection</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jwebmp.guicedee.servlets</groupId>
+            <artifactId>guiced-servlets</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jwebmp.guicedee</groupId>
+            <artifactId>guiced-log-master</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.jwebmp.guicedee.servlets</groupId>
+            <artifactId>guiced-websockets</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jwebmp.plugins.forms</groupId>
+            <artifactId>jwebmp-data-tables</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jwebmp.plugins.jquery</groupId>
+            <artifactId>jwebmp-jquery-ui</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jwebmp.plugins.javascript</groupId>
+            <artifactId>jwebmp-easing-effects</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.jwebmp.plugins.javascript</groupId>
+            <artifactId>jwebmp-globalize</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jwebmp.core</groupId>
+            <artifactId>jwebmp-interception</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <scm>
+        <url>https://github.com/GedMarc/JWebMP</url>
+    </scm>
+
+    <ciManagement>
+        <system>TeamCity</system>
+        <url>http://jwebmp.com/teamcity</url>
+    </ciManagement>
+</project>
