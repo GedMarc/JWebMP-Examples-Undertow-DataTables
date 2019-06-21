@@ -29,7 +29,7 @@ import com.jwebmp.plugins.datatable.enumerations.DataTableButtons;
 import com.jwebmp.plugins.datatable.enumerations.DataTableThemes;
 import com.jwebmp.plugins.datatable.options.DataTablesDomOptions;
 import com.jwebmp.plugins.datatable.options.buttons.DataTablesButtonButtonsOptions;
-import com.jwebmp.undertow.JWebMPUndertow;
+import com.jwebmp.undertow.GuicedUndertow;
 
 import javax.servlet.ServletException;
 
@@ -126,7 +126,7 @@ public class DataTablesDemoUndertow
 	 */
 	public static void main(String[] args) throws Exception
 	{
-		JWebMPUndertow.boot("0.0.0.0", 6002);
+		GuicedUndertow.boot("0.0.0.0", 6002);
 
 	}
 }
