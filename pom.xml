@@ -30,28 +30,28 @@
             </dependency>
 
         <dependency>
-            <groupId>com.jwebmp.guicedee.servlets</groupId>
+            <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
             <artifactId>guiced-undertow</artifactId><type>jar</type>
             </dependency>
 
         <dependency>
-            <groupId>com.jwebmp.guicedee</groupId>
+            <groupId>com.jwebmp.jpms.guicedee</groupId>
             <artifactId>guiced-injection</artifactId><type>jar</type>
             </dependency>
 
         <dependency>
-            <groupId>com.jwebmp.guicedee.servlets</groupId>
+            <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
             <artifactId>guiced-servlets</artifactId><type>jar</type>
             </dependency>
 
         <dependency>
-            <groupId>com.jwebmp.guicedee</groupId>
+            <groupId>com.jwebmp.jpms.guicedee</groupId>
             <artifactId>guiced-log-master</artifactId><type>jar</type>
             </dependency>
 
 
         <dependency>
-            <groupId>com.jwebmp.guicedee.servlets</groupId>
+            <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
             <artifactId>guiced-websockets</artifactId><type>jar</type>
             </dependency>
 
