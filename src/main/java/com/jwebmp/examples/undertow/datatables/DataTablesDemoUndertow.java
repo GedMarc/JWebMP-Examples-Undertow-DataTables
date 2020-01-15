@@ -17,6 +17,7 @@
 
 package com.jwebmp.examples.undertow.datatables;
 
+import com.guicedee.guicedservlets.undertow.GuicedUndertow;
 import com.jwebmp.core.Page;
 import com.jwebmp.core.base.html.TableCell;
 import com.jwebmp.core.base.html.TableHeaderCell;
@@ -29,7 +30,6 @@ import com.jwebmp.plugins.datatable.enumerations.DataTableButtons;
 import com.jwebmp.plugins.datatable.enumerations.DataTableThemes;
 import com.jwebmp.plugins.datatable.options.DataTablesDomOptions;
 import com.jwebmp.plugins.datatable.options.buttons.DataTablesButtonButtonsOptions;
-import com.jwebmp.undertow.GuicedUndertow;
 
 import javax.servlet.ServletException;
 
