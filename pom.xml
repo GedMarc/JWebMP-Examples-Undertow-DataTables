@@ -27,63 +27,53 @@
         <dependency>
             <groupId>com.jwebmp.core</groupId>
             <artifactId>jwebmp-core</artifactId>
-            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>com.guicedee</groupId>
             <artifactId>guiced-undertow</artifactId>
-            <type>jar</type>
         </dependency>
 
         <dependency>
             <groupId>com.guicedee</groupId>
             <artifactId>guiced-injection</artifactId>
-            <type>jar</type>
         </dependency>
 
 
         <dependency>
             <groupId>com.guicedee</groupId>
             <artifactId>guiced-log-master</artifactId>
-            <type>jar</type>
         </dependency>
 
 
         <dependency>
             <groupId>com.guicedee.servlets</groupId>
             <artifactId>guiced-websockets</artifactId>
-            <type>jar</type>
         </dependency>
 
         <dependency>
             <groupId>com.jwebmp.plugins.forms</groupId>
             <artifactId>jwebmp-data-tables</artifactId>
-            <type>jar</type>
         </dependency>
 
         <dependency>
             <groupId>com.jwebmp.plugins.jquery</groupId>
             <artifactId>jwebmp-jquery-ui</artifactId>
-            <type>jar</type>
         </dependency>
 
         <dependency>
             <groupId>com.jwebmp.plugins.javascript</groupId>
             <artifactId>jwebmp-easing-effects</artifactId>
-            <type>jar</type>
         </dependency>
 
 
         <dependency>
             <groupId>com.jwebmp.plugins.javascript</groupId>
             <artifactId>jwebmp-globalize</artifactId>
-            <type>jar</type>
         </dependency>
 
         <dependency>
             <groupId>com.jwebmp.core</groupId>
             <artifactId>jwebmp-interception</artifactId>
-            <type>jar</type>
         </dependency>
 
     </dependencies>
