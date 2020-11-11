@@ -31,7 +31,7 @@ import com.jwebmp.plugins.datatable.enumerations.DataTableThemes;
 import com.jwebmp.plugins.datatable.options.DataTablesDomOptions;
 import com.jwebmp.plugins.datatable.options.buttons.DataTablesButtonButtonsOptions;
 
-import javax.servlet.ServletException;
+import jakarta.servlet.ServletException;
 
 public class DataTablesDemoUndertow
 		extends Page
